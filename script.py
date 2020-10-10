@@ -1,9 +1,9 @@
 import time 
 import notify2 
-from topnews import topStories 
+from topstory import topStories 
 
 # path to notification window icon 
-ICON_PATH = "put full path to icon image here"
+ICON_PATH = "news_icon.png"
 
 # fetch news items 
 newsitems = topStories() 
